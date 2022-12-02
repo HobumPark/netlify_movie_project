@@ -21,9 +21,6 @@ class Pagination extends Component {
     setCurrentPage=(page)=>{
         alert(page);
         this.props.setCurrentPage(page);
-        this.setAllDefault()
-        var page=document.getElementById("page"+page)
-        page.style.fontWeight="bold";
     }
 
     prevPage=()=>{
