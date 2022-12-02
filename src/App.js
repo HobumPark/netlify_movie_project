@@ -49,7 +49,7 @@ class App extends Component {
 
   render(){
 
-    const{movieList,loading,postsPerPage,currentPage,search}=this.state;
+    const{movieList,loading,postsPerPage,currentPage}=this.state;
 
       return (
         <div className="App">

@@ -34,6 +34,7 @@ class MovieList extends Component {
       runtime={movie.runtime}
       rating={movie.rating}
       summary={movie.summary}
+      url={movie.url}
       ></Movie>
       
         )

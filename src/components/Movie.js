@@ -10,6 +10,9 @@ class Movie extends Component {
 
     constructor(props){
         super(props)
+        this.state={
+
+        }
     }
 
     render(){
@@ -32,13 +35,13 @@ class Movie extends Component {
                 <div id="movie_left">
                     <div id="left_comp">
                         <span className="cover_back">
-                        <img src={this.props.medium_cover_image}/>
+                        <img src={this.props.medium_cover_image} alt="cover"/>
                         </span>
                     
                         <span className="down">
                             <FontAwesomeIcon icon={faDownload} />
                             <span> </span>
-                            <a href="#">
+                            <a href={this.props.url}>
                                 Download
                             </a>
                         </span>
